@@ -1254,8 +1254,6 @@ a:focus .nav-title,
 a:hover .nav-title,
 .edit-link a:focus,
 .edit-link a:hover,
-.site-info a:focus,
-.site-info a:hover,
 .widget .widget-title a:focus,
 .widget .widget-title a:hover,
 .widget ul li a:focus,
@@ -2289,6 +2287,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
 
 .site-footer {
 	border-top: 1px solid #eee;
+	background-color: #2e1b0e;
+	/*background: url('./assets/images/footer.png') repeat-x center top;*/
 }
 
 .site-footer .wrap {
@@ -2354,7 +2354,12 @@ body:not(.twentyseventeen-front-page) .entry-header {
 }
 
 .site-info a {
-	color: #666;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Dancing Script', cursive;
+}
+.site-info a:hover {
+	opacity: 0.7;
 }
 
 .site-info .sep {
